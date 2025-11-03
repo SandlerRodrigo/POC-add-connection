@@ -256,6 +256,9 @@
 				DEVELOPMENT_TEAM = U3U5DQ8M7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "O app usa bluetooth para descobrir dispositivos próximos e trocar dados";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "O app usa a rede local para descobrir e conectar usuários próximos (Multipeer)";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "O app usa interação por proximidade para confirmar que os dispositivos estão próximos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +291,9 @@
 				DEVELOPMENT_TEAM = U3U5DQ8M7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "O app usa bluetooth para descobrir dispositivos próximos e trocar dados";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "O app usa a rede local para descobrir e conectar usuários próximos (Multipeer)";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "O app usa interação por proximidade para confirmar que os dispositivos estão próximos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

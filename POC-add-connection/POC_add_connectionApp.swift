@@ -11,7 +11,7 @@ import SwiftUI
 struct POC_add_connectionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddConnectionView()
         }
     }
 }
