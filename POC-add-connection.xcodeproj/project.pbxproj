@@ -10,9 +10,22 @@
 		5B4263FE2EB96A7600D95C7E /* POC-add-connection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-add-connection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5B4264162EB96FC100D95C7E /* Exceptions for "POC-add-connection" folder in "POC-add-connection" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5B4263FD2EB96A7600D95C7E /* POC-add-connection */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5B4264002EB96A7600D95C7E /* POC-add-connection */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5B4264162EB96FC100D95C7E /* Exceptions for "POC-add-connection" folder in "POC-add-connection" target */,
+			);
 			path = "POC-add-connection";
 			sourceTree = "<group>";
 		};
@@ -256,8 +269,10 @@
 				DEVELOPMENT_TEAM = U3U5DQ8M7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-add-connection/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "O app usa bluetooth para descobrir dispositivos próximos e trocar dados";
-				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "O app usa a rede local para descobrir e conectar usuários próximos (Multipeer)";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "";
 				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "O app usa interação por proximidade para confirmar que os dispositivos estão próximos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -291,8 +306,10 @@
 				DEVELOPMENT_TEAM = U3U5DQ8M7U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-add-connection/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "O app usa bluetooth para descobrir dispositivos próximos e trocar dados";
-				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "O app usa a rede local para descobrir e conectar usuários próximos (Multipeer)";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "";
 				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "O app usa interação por proximidade para confirmar que os dispositivos estão próximos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
